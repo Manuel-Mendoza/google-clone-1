@@ -1,0 +1,142 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.home__headerRight > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body > img {
+    object-fit: contain;
+    height: 100px;
+}
+
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 12px;
+    }
+  
+    .home__body > img {
+        object-fit: contain;
+        height: 60px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 12px;
+    }
+ }
+ @media (min-width:321px) and (max-width:375px) {
+
+    html { font-size:12px; }
+
+    .home__body > img {
+        object-fit: contain;
+        height: 70px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 12px;
+    }
+ }
+ @media (min-width:376px) and (max-width:425px) {
+
+    html { font-size:14px; }
+
+    .home__body > img {
+        object-fit: contain;
+        height: 75px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 14px;
+    }
+ }
+ @media (min-width:426px) and (max-width:768px) {
+
+    html { font-size:14px; }
+
+    .home__body > img {
+        object-fit: contain;
+        height: 75px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 14px;
+    }
+ }
+
+ @media (min-width:769px) and (max-width:1000px) {
+
+    html { font-size:16px; }
+
+    .home__body > img {
+        object-fit: contain;
+        height: 90px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 16px;
+    }
+ }
+
+ @media (min-width:1000px) and (max-width:1300px) {
+
+    html { font-size:18px; }
+
+    .home__body > img {
+        object-fit: contain;
+        height: 120px;
+    }
+    .home__header a {
+        margin-right: 20px;
+        text-decoration: inherit;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 18px;
+    }
+ }
